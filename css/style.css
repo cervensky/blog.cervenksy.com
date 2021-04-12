@@ -6,11 +6,11 @@
 body {
 	background-color: #282020;
 	color: #fffacd;
+	letter-spacing: .04em;
 }
 
 body.general-font {
 	font-family: Arial, sans-serif;
-	line-height: 1.4em;
 }
 
 div.flex-container {
@@ -26,11 +26,23 @@ h1 {
 	padding-top: 0.3em;
 }
 
+p {
+	margin-bottom: 1em;
+	line-height: 1.45em;
+}
+
 hr {
 	margin: 1.6em 20%;
 	color: #7d6c6c;
 }
 
+a:link:not(.nav a):not(a.icon), a:visited:not(.nav a):not(a.icon) {
+	color: #e8d177;
+}
+
+a:hover:not(.nav a):not(a.icon), a:active:not(.nav a):not(a.icon) {
+	color: #9f8d2c;
+}
 
 .nav-center {
 	display: inline-block;
@@ -146,15 +158,6 @@ section.content-box {
 article.content {
 	margin: 1.6em 4em;
 }
-
-a:link:not(.nav a):not(a.icon), a:visited:not(.nav a):not(a.icon) {
-	color: #eef4cc;
-}
-
-a:hover:not(.nav a):not(a.icon), a:active:not(.nav a):not(a.icon) {
-	color: #bbb;
-}
-
 
 footer {
 	text-align: center;

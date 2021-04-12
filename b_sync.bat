@@ -1,1 +1,1 @@
-browser-sync start -s -b firefox -f "*" "css\*" "js\*"
+browser-sync start -s -b firefox -f "*" "css\*" "js\*" "html/*"
